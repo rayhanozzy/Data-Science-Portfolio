@@ -2,13 +2,17 @@
 
 ## [Project 1 - Autonomous Driving Application Car Detection](https://github.com/rayhanozzy/Deep-Learning-Specialization-Coursera/blob/main/Course%204:%20Convolutional%20Neural%20Networks/Autonomous_driving_application_Car_detection.ipynb)
 
-- Emerging Tech Subjects: Artificial Intelligence
-- Deep Learning Skills: Neural Network
-- Machine Learning Methods: Deep Learning
-- Back-End Development Skills: TensorFlow
-- Programming Languages: Python
+**Emerging Tech Subjects:** Artificial Intelligence
 
-- Project description
+**Deep Learning Skills:** Neural Network
+
+**Machine Learning Methods:** Deep Learning
+
+**Back-End Development Skills:** TensorFlow
+
+**Programming Languages:** Python
+
+**Project description**
 
 The purpose of this project:
 1) Detected objects in a car detection dataset provided by drive.ai
