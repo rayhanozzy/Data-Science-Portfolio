@@ -39,7 +39,7 @@ Summary for YOLO:
 
 5) This gives me YOLO's final output.
 
-## [Project 2 - Telecom Customers Churn Prediction]
+## [Project 2 - Telecom Customers Churn Prediction](https://github.com/rayhanozzy/Coursera-Project-Network/blob/main/Machine%20Learning%20for%20Telecom%20Customers%20Churn%20Prediction/Machine%20Learning%20Classification%20-%20Telecom%20Customers%20Churn%20Prediction.ipynb)
 
 **Knowledge Representation Skills:** Classification
 
