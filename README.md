@@ -2,6 +2,9 @@
 
 ## [Project 1 - Autonomous Driving Application Car Detection](https://github.com/rayhanozzy/Deep-Learning-Specialization-Coursera/blob/main/Course%204:%20Convolutional%20Neural%20Networks/Autonomous_driving_application_Car_detection.ipynb)
 
+[Image](https://user-images.githubusercontent.com/73189702/162627319-5ef16fbe-41e9-4272-a578-5daf3d855417.png)
+Found 10 boxes for images
+
 **Emerging Tech Subjects:** Artificial Intelligence
 
 **Deep Learning Skills:** Neural Network
