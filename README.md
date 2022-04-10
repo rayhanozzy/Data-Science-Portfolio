@@ -39,3 +39,25 @@ Summary for YOLO:
 
 5) This gives me YOLO's final output.
 
+## [Project 2 - Telecom Customers Churn Prediction]
+
+**Knowledge Representation Skills:** Classification
+
+**Product Management Skills:** Data Analysis
+
+**Data Analytics Skills:** Machine Learning
+
+**Programming Languages:** Python
+
+**Infographic Features:** Data Visualization
+
+**Project description**
+
+In this project, I train several classification algorithms namely Logistic Regression, Support Vector Machine, K-Nearest Neighbors, and Random Forest Classifier to predict the churn rate of Telecommunication Customers.
+
+Amongst all the trained models, Random Forest Classifier algorithm produced the highest area under the ROC curve (AUC).
+
+The following scores are the results of the Random Forest Classifier model
+1. Accuracy: ~96% label accuracy
+2. Precision: ~96% labeled as Retained customers and ~94% labeled as churned customers
+3. Recall: ~99% labeled as Retained customers and ~76% labeled as churned customers
