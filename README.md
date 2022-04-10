@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+# Data Science Portfolio of Rayhan Ozzy Ertarto
 
-You can use the [editor on GitHub](https://github.com/rayhanozzy/Data-Science-Portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## [Project 1 - Autonomous Driving Application Car Detection](https://github.com/rayhanozzy/Deep-Learning-Specialization-Coursera/blob/main/Course%204:%20Convolutional%20Neural%20Networks/Autonomous_driving_application_Car_detection.ipynb)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Emerging Tech Subjects: Artificial Intelligence
+- Deep Learning Skills: Neural Network
+- Machine Learning Methods: Deep Learning
+- Back-End Development Skills: TensorFlow
+- Programming Languages: Python
 
-### Markdown
+- Project description
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The purpose of this project:
+1) Detected objects in a car detection dataset provided by drive.ai
+2) Implemented non-max suppression to achieve better accuracy
+3) Implemented intersection over union as a function of non-maximum suppression (NMS)
+4) Created usable bounding box tensors from the model's predictions
 
-```markdown
-Syntax highlighted code block
+In this project, I used the algorithm named "You Only Look Once" (YOLO). The algorithm "only looks once" at the image in the sense that it requires only one forward propagation pass through the network to make predictions. After non-max suppression, it then outputs recognized objects together with the bounding boxes.
 
-# Header 1
-## Header 2
-### Header 3
+Summary for YOLO:
+1) Input image (608, 608, 3)
+2) The input image goes through a CNN, resulting in a (19,19,5,85) dimensional output.
+3) After flattening the last two dimensions, the output is a volume of shape (19, 19, 425):
+- Each cell in a 19x19 grid over the input image gives 425 numbers.
+- 425 = 5 x 85 because each cell contains predictions for 5 boxes, corresponding to 5 anchor boxes, as seen in lecture.
+- 85 = 5 + 80 where 5 is because $(p_c, b_x, b_y, b_h, b_w)$ has 5 numbers, and 80 is the number of classes I'd like to detect
 
-- Bulleted
-- List
+4) Then select only few boxes based on:
+- Score-thresholding: throw away boxes that have detected a class with a score less than the threshold
+- Non-max suppression: Compute the Intersection over Union and avoid selecting overlapping boxes
 
-1. Numbered
-2. List
+5) This gives me YOLO's final output.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rayhanozzy/Data-Science-Portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
