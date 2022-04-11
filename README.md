@@ -63,7 +63,7 @@ Found 10 boxes for images
 
 In this project, I train several classification algorithms namely Logistic Regression, Support Vector Machine, K-Nearest Neighbors, and Random Forest Classifier to predict the churn rate of Telecommunication Customers.
 
-Amongst all the trained models, Random Forest Classifier algorithm produced the highest area under the ROC curve (AUC).
+Amongst all the trained models, **Random Forest Classifier** algorithm produced the highest area under the ROC curve (AUC).
 
 The following scores are the results of the Random Forest Classifier model
 1. Accuracy: `~96%` label accuracy
