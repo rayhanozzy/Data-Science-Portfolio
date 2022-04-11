@@ -24,7 +24,7 @@ The purpose of this project:
 
 4) Created usable bounding box tensors from the model's predictions
 
-In this project, I used the algorithm named "You Only Look Once" (YOLO). The algorithm "only looks once" at the image in the sense that it requires only one forward propagation pass through the network to make predictions. After non-max suppression, it then outputs recognized objects together with the bounding boxes.
+In this project, I used the algorithm named **"You Only Look Once" (YOLO)**. The algorithm "only looks once" at the image in the sense that it requires only one forward propagation pass through the network to make predictions. After non-max suppression, it then outputs recognized objects together with the bounding boxes.
 
 Summary for YOLO:
 
@@ -67,10 +67,10 @@ Amongst all the trained models, Random Forest Classifier algorithm produced the 
 
 The following scores are the results of the Random Forest Classifier model
 1. Accuracy: `~96%` label accuracy
-2. Precision: `~96%` labeled as Retained customers and ~94% labeled as churned customers
-3. Recall: `~99%` labeled as Retained customers and ~76% labeled as churned customers
+2. Precision: `~96%` labeled as Retained customers and `~94%` labeled as churned customers
+3. Recall: `~99%` labeled as Retained customers and `~76%` labeled as churned customers
 
 
 ![](/images/image_large1.png)
 
-It represents that Random Forest algorithm produced the best AUC.
+It represents that R*andom Forest algorithm produced the best AUC.
