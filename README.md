@@ -32,7 +32,7 @@ Summary for YOLO:
 
 2) The input image goes through a CNN, resulting in a `(19, 19, 5, 85)` dimensional output.
 
-3) After flattening the last two dimensions, the output is a volume of shape (19, 19, 425):
+3) After flattening the last two dimensions, the output is a volume of shape `(19, 19, 425)`:
 - Each cell in a `19x19` grid over the input image gives `425` numbers.
 - `425 = 5 x 85` because each cell contains predictions for `5` boxes, corresponding to `5` anchor boxes, as seen in lecture.
 - `85 = 5 + 80` where `5` is because `(p_c, b_x, b_y, b_h, b_w)` has `5` numbers, and `80` is the number of classes I'd like to detect
