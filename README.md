@@ -39,6 +39,7 @@ Summary for YOLO:
 5) This gives me YOLO's final output.
 
 ![](https://github.com/rayhanozzy/Data-Science-Portfolio/blob/main/images/image_large.jpg)
+
 Found 10 boxes for images
 
 ## [Project 2 - Telecom Customers Churn Prediction](https://github.com/rayhanozzy/Coursera-Project-Network/blob/main/Machine%20Learning%20for%20Telecom%20Customers%20Churn%20Prediction/Machine%20Learning%20Classification%20-%20Telecom%20Customers%20Churn%20Prediction.ipynb)
@@ -66,4 +67,5 @@ The following scores are the results of the Random Forest Classifier model
 
 
 ![](https://github.com/rayhanozzy/Data-Science-Portfolio/blob/main/images/image_large1.jpg)
+
 It represents that Random Forest algorithm produced the best AUC.
