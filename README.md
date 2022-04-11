@@ -38,7 +38,7 @@ Summary for YOLO:
 
 5) This gives me YOLO's final output.
 
-![](https://github.com/rayhanozzy/Data-Science-Portfolio/blob/main/images/image_large.jpg)
+![](/images/image_large.jpg)
 
 Found 10 boxes for images
 
@@ -66,6 +66,6 @@ The following scores are the results of the Random Forest Classifier model
 3. Recall: ~99% labeled as Retained customers and ~76% labeled as churned customers
 
 
-![](https://github.com/rayhanozzy/Data-Science-Portfolio/blob/main/images/image_large1.jpg)
+![](/images/image_large1.jpg)
 
 It represents that Random Forest algorithm produced the best AUC.
