@@ -15,14 +15,19 @@
 **Project Description**
 
 The purpose of this project:
+
 1) Detected objects in a car detection dataset provided by drive.ai
+
 2) Implemented non-max suppression to achieve better accuracy
+
 3) Implemented intersection over union as a function of non-maximum suppression (NMS)
+
 4) Created usable bounding box tensors from the model's predictions
 
 In this project, I used the algorithm named "You Only Look Once" (YOLO). The algorithm "only looks once" at the image in the sense that it requires only one forward propagation pass through the network to make predictions. After non-max suppression, it then outputs recognized objects together with the bounding boxes.
 
 Summary for YOLO:
+
 1) Input image (608, 608, 3)
 
 2) The input image goes through a CNN, resulting in a (19,19,5,85) dimensional output.
