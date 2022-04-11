@@ -1,6 +1,6 @@
 # Data Science Portfolio of Rayhan Ozzy Ertarto
 
-## [Project 1 - Autonomous Driving Application Car Detection](https://github.com/rayhanozzy/Deep-Learning-Specialization-Coursera/blob/main/Course%204:%20Convolutional%20Neural%20Networks/Autonomous_driving_application_Car_detection.ipynb)
+## [Project 1: Autonomous Driving Application Car Detection](https://github.com/rayhanozzy/Deep-Learning-Specialization-Coursera/blob/main/Course%204:%20Convolutional%20Neural%20Networks/Autonomous_driving_application_Car_detection.ipynb)
 
 **Emerging Tech Subjects:** Artificial Intelligence
 
@@ -38,11 +38,11 @@ Summary for YOLO:
 
 5) This gives me YOLO's final output.
 
-![](/images/image_large.jpg)
+![](/images/image_large.png)
 
 Found 10 boxes for images
 
-## [Project 2 - Telecom Customers Churn Prediction](https://github.com/rayhanozzy/Coursera-Project-Network/blob/main/Machine%20Learning%20for%20Telecom%20Customers%20Churn%20Prediction/Machine%20Learning%20Classification%20-%20Telecom%20Customers%20Churn%20Prediction.ipynb)
+## [Project 2: Telecom Customers Churn Prediction](https://github.com/rayhanozzy/Coursera-Project-Network/blob/main/Machine%20Learning%20for%20Telecom%20Customers%20Churn%20Prediction/Machine%20Learning%20Classification%20-%20Telecom%20Customers%20Churn%20Prediction.ipynb)
 
 **Knowledge Representation Skills:** Classification
 
@@ -66,6 +66,6 @@ The following scores are the results of the Random Forest Classifier model
 3. Recall: ~99% labeled as Retained customers and ~76% labeled as churned customers
 
 
-![](/images/image_large1.jpg)
+![](/images/image_large1.png)
 
 It represents that Random Forest algorithm produced the best AUC.
