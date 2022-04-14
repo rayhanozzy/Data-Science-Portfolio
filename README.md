@@ -73,4 +73,4 @@ The following scores are the results of the Random Forest Classifier model
 
 ![](/images/image_large1.png)
 
-It represents that R*andom Forest algorithm produced the best AUC.
+It represents that Random Forest algorithm produced the best AUC.
